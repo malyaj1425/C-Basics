@@ -528,7 +528,7 @@ void deleteRear()
 }
 
 };*/
-/* //DeQueue with Array */
+/* //DeQueue with Array 
 #define SIZE 10
 class dequeue {
    int a[20],f,r;
@@ -605,7 +605,8 @@ void dequeue::delete_fr_front() {
             cout<<a[i]<<" ";
          }
       }
-   }
+   }*/
+   /* //Circular Queue */
 
 
 main()
@@ -965,7 +966,7 @@ CQQueue ob1;
 	std::cout<<std::endl;
 	q.insertFront(65);
 	q.displayQueue();*/
-/* //DeQueue with Array*/
+/* //DeQueue with Array
 int c,i;
       dequeue d;
       do//perform switch opeartion
@@ -1005,6 +1006,6 @@ int c,i;
             cout<<"invalid choice";
          break;
       }
-   } while(c!=7);
+   } while(c!=7);*/
 
 }
