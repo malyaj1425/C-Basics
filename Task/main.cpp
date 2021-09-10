@@ -668,6 +668,18 @@ void displayCQ() {
    }
    cout<<endl;
 }*/
+/* //SMALLEST ELEMENT IN  ARRAY
+int getMin(int arr[],int n){
+    int res = arr[0];
+    for(int i = 1; i < n-1; i++){
+        if (arr[i]<res)
+        {
+          res=arr[i];
+        }
+
+    }
+    cout<<res;
+}*/
 
 
 
@@ -1100,6 +1112,15 @@ int c,i;
       }
    } while(ch != 4);
    return 0;*/
-
+/* //SMALLEST ELEMENT IN  ARRAY
+cout<<"Enter the Number of elements you want in array\n";
+int n;
+cin>>n;
+cout<<"Enter elements in an array\n";
+int arr[n];
+for(int i=0;i<n;i++){
+    cin>>arr[i];
+}
+cout<<getMin(arr,n);*/
 
 }
